@@ -21,8 +21,6 @@ async def set_main_menu(bot: Bot):
         BotCommand(command='/donat',
                    description='Поддержать бобров бревном 89198900641'),
         BotCommand(command='/image',
-                   description='Получить фото с марса'),
-        BotCommand(command='/',
                    description='Получить фото с марса')]
     await bot.set_my_commands(menu)
 
